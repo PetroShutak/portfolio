@@ -1,12 +1,16 @@
-import ProjectsList from 'components/ProjectsList/ProjectsList'
-import React from 'react'
+import ProjectsList from 'components/ProjectsList/ProjectsList';
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const ProjectsPage = () => {
   return (
     <div>
-        <ProjectsList />
+      <Helmet>
+        <title>Projects</title>
+      </Helmet>
+      <ProjectsList />
     </div>
-  )
-}
+  );
+};
 
-export default ProjectsPage
+export default ProjectsPage;

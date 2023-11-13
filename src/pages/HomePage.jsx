@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
+      <div>HomePage</div>
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
