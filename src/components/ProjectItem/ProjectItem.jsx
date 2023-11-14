@@ -82,7 +82,19 @@ const ProjectItem = ({ title, url, repository, image, description }) => {
             <span className="close" onClick={closeModal}>
               &times;
             </span>
-            <h1>{title}</h1>
+            <div
+              style={{
+                display: 'flex',
+                gap: '20px',
+                alignItems: 'center',
+                marginBottom: '20px',
+              }}
+            >
+              <h1>{title}</h1>
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {<StyledExternalLinkIcon />}
+              </a>
+            </div>
             {!imageLoaded && <Placeholder />}
             {selectedImage && (
               <img
