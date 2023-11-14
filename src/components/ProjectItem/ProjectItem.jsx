@@ -1,42 +1,101 @@
 import React from 'react';
-import { ProjectItemContainer } from './ProjectItem.styled';
-import { AiFillGithub } from 'react-icons/ai';
-import { GoLinkExternal } from 'react-icons/go';
-// AiFillGithub
-// GoLinkExternal
+import { useState, useEffect } from 'react';
+import {
+  ProjectItemContainer,
+  Modal,
+  ModalContent,
+  ImageCard,
+  Desc,
+  Placeholder,
+} from './ProjectItem.styled';
+import { StyledGithubIcon, StyledExternalLinkIcon } from './ProjectItem.styled';
 
+const ProjectItem = ({ title, url, repository, image, description }) => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedDescription, setSelectedDescription] = useState(null);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
-const ProjectItem = ({ title, url, repository, image }) => {
+  useEffect(() => {
+    const handleEscape = event => {
+      if (event.key === 'Escape') {
+        closeModal();
+      }
+    };
+
+    if (modalOpen) {
+      document.addEventListener('keydown', handleEscape);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+    };
+  }, [modalOpen]);
+
+  const openModal = () => {
+    setSelectedImage(image);
+    setSelectedDescription(description);
+    setImageLoaded(false);
+    setModalOpen(true);
+  };
+  const closeModal = e => {
+    setModalOpen(false);
+  };
+
+  const handleImageClick = () => {
+    if (!modalOpen) {
+      openModal();
+    }
+  };
+
+  const handleImageLoaded = () => {
+    setImageLoaded(true);
+  };
+
+  const handleCloseModal = event => {
+    if (event.target.classList.contains('backdrop')) {
+      closeModal();
+    }
+  };
+
   return (
     <ProjectItemContainer>
-      <img src={image} alt={title} />
+      <ImageCard src={image} alt={title} onClick={handleImageClick} />
       <h3>{title}</h3>
-      <p>
+      <Desc>
+        {' '}
+        Live demo:
         <a href={url} target="_blank" rel="noopener noreferrer">
-          <GoLinkExternal
-            style={{
-              fontSize: '1.5rem',
-              color: '#282c34',
-              marginRight: '0.5rem',
-            }}
-          />
-          {url}
+          {<StyledExternalLinkIcon />}
         </a>
-      </p>
-      <p>
+      </Desc>
+      <Desc>
+        {' '}
+        Code:
         <a href={repository} target="_blank" rel="noopener noreferrer">
-          {
-            <AiFillGithub
-              style={{
-                fontSize: '1.5rem',
-                color: '#282c34',
-                marginRight: '0.5rem',
-              }}
-            />
-          }
-          {repository}
+          {<StyledGithubIcon />}
         </a>
-      </p>
+      </Desc>
+      {modalOpen && (
+        <Modal className="backdrop" onClick={handleCloseModal}>
+          <ModalContent>
+            <span className="close" onClick={closeModal}>
+              &times;
+            </span>
+            <h1>{title}</h1>
+            {!imageLoaded && <Placeholder />}
+            {selectedImage && (
+              <img
+                src={selectedImage}
+                alt={title}
+                style={{ display: imageLoaded ? 'block' : 'none' }}
+                onLoad={handleImageLoaded}
+              />
+            )}
+            <p>{selectedDescription}</p>
+          </ModalContent>
+        </Modal>
+      )}
     </ProjectItemContainer>
   );
 };

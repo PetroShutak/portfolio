@@ -1,23 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Healthy Hub - App for healthy lifestyle",
+    "title": "Healthy Hub - Application",
     "url": "https://alextkachenkofullstack.github.io/healthy-hub/",
     "repository": "https://github.com/PetroShutak/healthy-hub",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699905625/healthy-hub_x1ldnz.jpg"
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699979786/healthy-hub1_lqklwx.jpg",
+    "description": "Healthy Hub is a web application that helps you to track your daily activity, food and water intake, and sleep. It also provides you with a list of healthy recipes and exercises. The application is built with HTML, CSS, JavaScript, and React. It uses Firebase for authentication and database. The application is responsive and works on mobile devices."
   },
   {
     "id": 2,
     "title": "Ice Cream - Landing Page",
     "url": "https://petekostrytsya.github.io/DevHunt/",
     "repository": "https://github.com/petekostrytsya/DevHunt",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699904218/ice-cream_-_landing_jhxlzn.jpg"
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699904218/ice-cream_-_landing_jhxlzn.jpg",
+    "description": "Ice Cream is a landing page for a fictional ice cream shop. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
   },
   {
     "id": 3,
     "title": "Bookshelf - Landing Page",
     "url": "https://petroshutak.github.io/devHunt-team-project-js/",
     "repository": "https://github.com/PetroShutak/devHunt-team-project-js",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699904596/bookshelf_n9npfh.jpg"
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699904596/bookshelf_n9npfh.jpg",
+    "description": "Bookshelf is a landing page for a fictional online book store. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
   }
 ]
