@@ -22,5 +22,13 @@
     "repository": "https://github.com/PetroShutak/devHunt-team-project-js",
     "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699904596/bookshelf_n9npfh.jpg",
     "description": "Bookshelf is a landing page for a fictional online book store. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
+  },
+   {
+    "id": 4,
+    "title": "Beauty Zone - Landing Page",
+    "url": "https://petroshutak.github.io/beauty-zone/",
+    "repository": "https://github.com/PetroShutak/beauty-zone",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700049262/beaty_owc25l.jpg",
+    "description": "This is a website for a beauty salon. The website is responsive and has a mobile first design. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
   }
 ]
