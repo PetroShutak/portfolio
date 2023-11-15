@@ -1,3 +1,4 @@
+import Contacts from 'components/Contacts/Contacts';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -7,7 +8,7 @@ const ContactsPage = () => {
       <Helmet>
         <title>Contacts</title>
       </Helmet>
-      <div>ContactsPage</div>
+      <Contacts />
     </>
   );
 };
