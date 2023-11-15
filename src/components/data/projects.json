@@ -30,5 +30,15 @@
     "repository": "https://github.com/PetroShutak/beauty-zone",
     "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700049262/beaty_owc25l.jpg",
     "description": "This is a website for a beauty salon. The website is responsive and has a mobile first design. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
+  },
+  {
+    "id": 5,
+    "title": "RentCarEasy - Car Rental Web Application",
+    "url": "https://petroshutak.github.io/rent-car-easy",
+    "repository": "https://github.com/PetroShutak/rent-car-easy",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700051044/rent-car_fr5rar.jpg",
+    "description": "This is a web application that provides car rental services in Ukraine. The application consists of three main pages:
+Home Page: General description of the services offered by the company. Car Catalog: Catalog of cars of various configurations that can be filtered by brand, hourly rental price, and mileage.
+Favorite Listings: Listings added by the user to their favorites. The web application is built with React/Redux"
   }
 ]
