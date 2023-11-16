@@ -4,7 +4,7 @@
     "title": "Healthy Hub - Application",
     "url": "https://alextkachenkofullstack.github.io/healthy-hub/",
     "repository": "https://github.com/PetroShutak/healthy-hub",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699979786/healthy-hub1_lqklwx.jpg",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152009/healthy-hub_j2cf9y.jpg",
     "description": "Healthy Hub is a web application that helps you to track your daily activity, food and water intake, and sleep. It also provides you with a list of healthy recipes and exercises. The application is built with HTML, CSS, JavaScript, and React. It uses Firebase for authentication and database. The application is responsive and works on mobile devices."
   },
   {
@@ -12,7 +12,7 @@
     "title": "Ice Cream - Landing Page",
     "url": "https://petekostrytsya.github.io/DevHunt/",
     "repository": "https://github.com/petekostrytsya/DevHunt",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699904218/ice-cream_-_landing_jhxlzn.jpg",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152009/ice-cream_d9slme.jpg",
     "description": "Ice Cream is a landing page for a fictional ice cream shop. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
   },
   {
@@ -20,15 +20,15 @@
     "title": "Bookshelf - Landing Page",
     "url": "https://petroshutak.github.io/devHunt-team-project-js/",
     "repository": "https://github.com/PetroShutak/devHunt-team-project-js",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1699904596/bookshelf_n9npfh.jpg",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152009/bookshelf_c0iazg.jpg",
     "description": "Bookshelf is a landing page for a fictional online book store. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
   },
-   {
+  {
     "id": 4,
     "title": "Beauty Zone - Landing Page",
     "url": "https://petroshutak.github.io/beauty-zone/",
     "repository": "https://github.com/PetroShutak/beauty-zone",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700049262/beaty_owc25l.jpg",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152009/beaty-zone_vohcon.jpg",
     "description": "This is a website for a beauty salon. The website is responsive and has a mobile first design. The page is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
   },
   {
@@ -36,7 +36,7 @@
     "title": "RentCarEasy - Car Rental Web Application",
     "url": "https://petroshutak.github.io/rent-car-easy",
     "repository": "https://github.com/PetroShutak/rent-car-easy",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700051044/rent-car_fr5rar.jpg",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152009/rent-car_ceoqzo.jpg",
     "description": "This is a web application that provides car rental services in Ukraine. The web application is built with React/Redux."
   },
   {
@@ -44,7 +44,15 @@
     "title": "WebStudio - Landing Page",
     "url": "https://petroshutak.github.io/goit-markup-hw-07/",
     "repository": "https://github.com/PetroShutak/goit-markup-hw-07",
-    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700131404/web-studio_icwgtq.jpg",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152009/web-studio_hobkaj.jpg",
     "description": "Welcome to the realm of web design, where every pixel is an opportunity to impress and exceed expectations. Our web studio is a workshop where ideas come to life. We have the expertise to craft your perfect page, considering every detail from the highest conceptual level to the smallest lines of code. Design choice is the visual representation of your brand, and we understand the importance of every line and color in conveying your essence. Immerse yourself in the world of web development with us and create an impressive design for your online presence!"
+  },
+  {
+    "id": 7,
+    "title": "Image Finder - Landing Page - App",
+    "url": "https://petroshutak.github.io/goit-js-hw-11-re-run-/",
+    "repository": "https://github.com/PetroShutak/goit-js-hw-11-re-run-",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152011/image-finder_vpwokg.jpg",
+    "description": "Image Finder is a web application that allows you to search for images using the Pixabay API. The application is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
   }
 ]
