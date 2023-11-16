@@ -4,6 +4,7 @@ import { FiAlignRight } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 
 export const NavContainer = styled.div`
+  font-family: 'Play', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,9 +28,9 @@ export const StyledLink = styled(NavLink)`
   &.active {
     color: blue;
   }
-    @media screen and (max-width: 768px) {
-      display: none;
-    }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const StyledBurger = styled(FiAlignRight)`
