@@ -26,7 +26,7 @@ export const StyledLink = styled(NavLink)`
   color: black;
 
   &.active {
-    color: blue;
+    color: #61dafb;
   }
   @media screen and (max-width: 768px) {
     display: none;
@@ -40,13 +40,20 @@ export const StyledBurger = styled(FiAlignRight)`
   background: transparent;
   cursor: pointer;
   &:hover {
-    color: blue;
+    color: #61dafb;
   }
 `;
 
 
 export const Logo = styled.div`
-  img {
-    border-radius: 5px;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.43;
+  color: black;
+  & > a {
+    text-decoration: none;
+    color: greenmoss;
   }
+
 `;

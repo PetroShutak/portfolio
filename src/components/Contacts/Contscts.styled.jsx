@@ -34,5 +34,5 @@ export const ContactsWrapper = styled.div`
 export const Title = styled.h2`
   font-size: 24px;
   font-weight: 700;
-  color: blue;
+  color: #61dafb;
 `;

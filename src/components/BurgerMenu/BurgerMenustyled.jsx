@@ -22,6 +22,9 @@ export const BurgerMenuContainer = styled.div`
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Backdrop = styled.div`
@@ -52,17 +55,18 @@ export const BurgerNav = styled.div`
   }
 `;
 
+
+
+
+
+
 export const StyledLink = styled(NavLink)`
   font-family: 'Play', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.43;
   color: black;
-
   &.active {
-    color: blue;
+    color: #61dafb;
   }
-  //   @media screen and (max-width: 768px) {
-  //     display: none;
-  //   }
 `;
