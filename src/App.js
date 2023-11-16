@@ -1,12 +1,16 @@
 import Layout from '../src/components/Layout/Layout';
 import { Route, Routes } from 'react-router-dom';
+import {lazy} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HomePage from 'pages/HomePage';
 import AboutPage from 'pages/AboutPage';
-import ProjectsPage from 'pages/ProjectsPage';
+// import ProjectsPage from 'pages/ProjectsPage';
 import ContactsPage from 'pages/ContactsPage';
 import Main from 'pages/Main';
+
+
+const ProjectsPage = lazy(() => import('pages/ProjectsPage'));
 
 function App() {
   return (

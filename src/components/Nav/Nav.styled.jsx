@@ -43,3 +43,10 @@ export const StyledBurger = styled(FiAlignRight)`
     color: blue;
   }
 `;
+
+
+export const Logo = styled.div`
+  img {
+    border-radius: 5px;
+  }
+`;
