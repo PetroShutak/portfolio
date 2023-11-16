@@ -21,7 +21,6 @@ export const ProjectItemContainer = styled.div`
   }
 `;
 
-
 export const StyledGithubIcon = styled(AiFillGithub)`
   font-size: 1.5rem;
   color: #282c34;
@@ -39,7 +38,7 @@ export const StyledExternalLinkIcon = styled(GoLinkExternal)`
   transition: all 0.3s ease;
 
   &:hover {
-    color: #DAA520;
+    color: #daa520;
     transform: scale(1.2);
   }
 `;
@@ -48,6 +47,7 @@ export const ImageCard = styled.img`
   width: 100%;
   height: auto;
   border-radius: 15px;
+  border: 0.5px solid #ccc;
   margin-bottom: 24px;
   transition: 0.5s;
   &:hover {

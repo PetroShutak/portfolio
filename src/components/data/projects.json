@@ -48,11 +48,51 @@
     "description": "Welcome to the realm of web design, where every pixel is an opportunity to impress and exceed expectations. Our web studio is a workshop where ideas come to life. We have the expertise to craft your perfect page, considering every detail from the highest conceptual level to the smallest lines of code. Design choice is the visual representation of your brand, and we understand the importance of every line and color in conveying your essence. Immerse yourself in the world of web development with us and create an impressive design for your online presence!"
   },
   {
+    "id": 12,
+    "title": "Cat-House - Landing Page",
+    "url": "https://petroshutak.github.io/cats-house/",
+    "repository": "https://github.com/PetroShutak/cats-house",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700153634/cat-house_mqh4xg.jpg",
+    "description": "Cat-House is a web application that allows you to find a cat for adoption. The application is built with HTML, CSS, JavaScript, and React. It uses Firebase for authentication and database. The application is responsive and works on mobile devices."
+  },
+  {
     "id": 7,
     "title": "Image Finder - Landing Page - App",
     "url": "https://petroshutak.github.io/goit-js-hw-11-re-run-/",
     "repository": "https://github.com/PetroShutak/goit-js-hw-11-re-run-",
     "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152011/image-finder_vpwokg.jpg",
     "description": "Image Finder is a web application that allows you to search for images using the Pixabay API. The application is built with HTML, CSS, and JavaScript. It is responsive and works on mobile devices."
+  },
+  {
+    "id": 8,
+    "title": "JS - simple tasks - Vanilla JS",
+    "url": "https://petroshutak.github.io/JS-Homework-GoIT/",
+    "repository": "https://github.com/PetroShutak/JS-Homework-GoIT",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700152618/homework_mp1uci.jpg",
+    "description": "This is a collection of simple tasks that I have completed while learning JavaScript. The tasks are built with HTML, CSS, and JavaScript. They are responsive and work on mobile devices."
+  },
+  {
+    "id": 9,
+    "title": "React/Hooks - simple tasks - React",
+    "url": "https://petroshutak.github.io/react-hook-project/",
+    "repository": "https://github.com/PetroShutak/react-hook-project",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700153060/react_zf3k9j.jpg",
+    "description": "This is a collection of simple tasks that I have completed while learning React. The tasks are built with HTML, CSS, and JavaScript. They are responsive and work on mobile devices."
+  },
+  {
+    "id": 10,
+    "title": "Phonebook - Application - React/Redux",
+    "url": "https://petroshutak.github.io/goit-react-hw-08-phonebook/",
+    "repository": "https://github.com/PetroShutak/goit-react-hw-08-phonebook",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700153355/phonebook_rbdv0p.jpg",
+    "description": "This is a web application that allows you to store your contacts. The application is built with React/Redux. It uses Firebase for authentication and database. The application is responsive and works on mobile devices."
+  },
+  {
+    "id": 11,
+    "title": "Movie Finder - Application - React/Redux",
+    "url": "https://petroshutak.github.io/goit-react-hw-05-movies",
+    "repository": "https://github.com/PetroShutak/goit-react-hw-05-movies",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700153919/movie-finder_ynyy68.jpg",
+    "description": "This is a web application that allows you to search for movies. The application is built with React/Redux. It uses the MovieDB API. The application is responsive and works on mobile devices."
   }
 ]
