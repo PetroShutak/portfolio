@@ -5,9 +5,9 @@ export const BurgerMenuContainer = styled.div`
   position: absolute;
   top: 0px;
   right: 0px;
-  width: 300px;
+  width: 400px;
   height: 100vh;
-  background-color: #fff;
+  background-color: beige;
   z-index: 1000;
   padding: 20px;
   .close {
@@ -25,6 +25,7 @@ export const BurgerMenuContainer = styled.div`
   @media screen and (max-width: 768px) {
     width: 100%;
   }
+  transition: transform 0.3s ease-in-out;
 `;
 
 export const Backdrop = styled.div`
@@ -54,11 +55,6 @@ export const BurgerNav = styled.div`
     }
   }
 `;
-
-
-
-
-
 
 export const StyledLink = styled(NavLink)`
   font-family: 'Play', sans-serif;
