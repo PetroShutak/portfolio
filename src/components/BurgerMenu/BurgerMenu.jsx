@@ -24,9 +24,9 @@ const BurgerMenu = ({ setOpen }) => {
           &times;
         </span>
         <BurgerNav>
-          <StyledLink onClick={handleLinkClick} to="/main">
+          {/* <StyledLink onClick={handleLinkClick} to="/main">
             Main
-          </StyledLink>
+          </StyledLink> */}
           <StyledLink onClick={handleLinkClick} to="/home">
             Home
           </StyledLink>

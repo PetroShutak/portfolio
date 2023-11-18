@@ -1,16 +1,23 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+
 import { MainWrapper } from 'components/MainComponents/MainComponents.styled';
 
 const MainComponents = () => {
+  const handleClick = () => {
+    // console.log('click')
+    const viewportHeight = document.documentElement.clientHeight;
+
+    window.scrollTo({
+      top: viewportHeight,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <MainWrapper>
-    {/* <h1>Start Page</h1> */}
-    <Link to="/"> 
-      <button>Get started</button>
-    </Link>
+      <button onClick={handleClick}>Get started</button>
     </MainWrapper>
-  )
-}
+  );
+};
 
 export default MainComponents;

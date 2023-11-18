@@ -7,7 +7,7 @@ import HomePage from 'pages/HomePage';
 import AboutPage from 'pages/AboutPage';
 // import ProjectsPage from 'pages/ProjectsPage';
 import ContactsPage from 'pages/ContactsPage';
-import StartPage from 'pages/StartPage';
+// import StartPage from 'pages/StartPage';
 
 const ProjectsPage = lazy(() => import('pages/ProjectsPage'));
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/main" element={<StartPage />} />
+        {/* <Route path="/main" element={<StartPage />} /> */}
         <Route path="/" element={<Layout />}>
           <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
