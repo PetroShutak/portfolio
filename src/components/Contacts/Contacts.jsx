@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactsWrapper, Title } from './Contscts.styled';
+import { ContactsWrapper, Title } from './Contacts.styled';
 // іконки для контактів
 import { MailSend } from '@styled-icons/boxicons-regular/MailSend';
 import { Phone } from '@styled-icons/boxicons-regular/Phone';
@@ -9,6 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Contacts = () => {
   return (
+    
     <ContactsWrapper>
       <Title>My contacts</Title>
       <p>Here you can find my contacts</p>

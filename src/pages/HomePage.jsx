@@ -7,7 +7,10 @@ const HomePage = () => {
       <Helmet>
         <title>Home</title>
       </Helmet>
-      <div>HomePage</div>
+      <div
+      style={{
+        height: '100vh',
+      }}>HomePage</div>
     </>
   );
 };

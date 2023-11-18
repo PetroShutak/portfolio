@@ -7,7 +7,7 @@ export const BurgerMenuContainer = styled.div`
   right: 0px;
   width: 400px;
   height: 100vh;
-  background-color: beige;
+  background-color: #fff;
   z-index: 1000;
   padding: 20px;
   .close {
@@ -63,6 +63,6 @@ export const StyledLink = styled(NavLink)`
   line-height: 1.43;
   color: black;
   &.active {
-    color: #61dafb;
+    color: blue;
   }
 `;

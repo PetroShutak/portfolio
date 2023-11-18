@@ -7,7 +7,9 @@ const AboutPage = () => {
       <Helmet>
         <title>About</title>
       </Helmet>
-      <div>AboutPage</div>
+      <div style={{
+        height: '100vh',
+      }}>AboutPage</div>
     </>
   );
 };

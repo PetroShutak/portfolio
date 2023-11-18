@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <NavContainer>
       <Logo>
-        <Link to="/">Logo</Link>
+        <Link to="/main">Logo</Link>
       </Logo>
       {/* <StyledLink to="/"></StyledLink> */}
       <StyledLink to="/home">Home</StyledLink>

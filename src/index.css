@@ -13,8 +13,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-primary);
-  color: var(--text-color-primary-white);
+   /* background-color: var(--bg-color-primary); */
+  /* color: var(--text-color-primary-white); */
+  background-image: url('https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700330370/portfolio-bg_dihd3p.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 ul {

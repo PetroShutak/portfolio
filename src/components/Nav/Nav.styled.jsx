@@ -10,6 +10,7 @@ export const NavContainer = styled.div`
   align-items: center;
   padding: 20px 40px;
   background-color: #f5f5f5;
+  // background-color: rgba(255, 255, 255, 0.5) ;
   border-bottom: 1px solid #ddd;
   @media screen and (max-width: 768px) {
     justify-content: space-between;
@@ -26,7 +27,7 @@ export const StyledLink = styled(NavLink)`
   color: black;
 
   &.active {
-    color: #61dafb;
+    color: blue;
   }
   @media screen and (max-width: 768px) {
     display: none;

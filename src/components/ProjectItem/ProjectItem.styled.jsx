@@ -14,7 +14,7 @@ export const ProjectItemContainer = styled.div`
   text-align: center;
   box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
   margin: 24px;
-
+  background-color: rgba(255, 255, 255, 0.5) ;
   a {
     display: flex;
     align-items: center;
