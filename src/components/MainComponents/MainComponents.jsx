@@ -5,7 +5,7 @@ import { MainWrapper } from 'components/MainComponents/MainComponents.styled';
 const MainComponents = () => {
   const handleClick = () => {
     // console.log('click')
-    const viewportHeight = document.documentElement.clientHeight;
+    const viewportHeight = window.innerHeight;
 
     window.scrollTo({
       top: viewportHeight,
