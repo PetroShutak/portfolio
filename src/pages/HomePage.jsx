@@ -11,6 +11,8 @@ const HomePage = () => {
       <div
       style={{
         height: '100vh',
+        paddingTop: '60px',
+        paddingBottom: '60px',
       }}>
         <Home />
       </div>

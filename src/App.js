@@ -1,7 +1,7 @@
 import Layout from '../src/components/Layout/Layout';
 import { Route, Routes } from 'react-router-dom';
 import { lazy } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import HomePage from 'pages/HomePage';
 import AboutPage from 'pages/AboutPage';
@@ -21,7 +21,7 @@ function App() {
           <Route path="/contacts" element={<ContactsPage />} />
         </Route>
       </Routes>
-      <div className="App">
+      {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -37,7 +37,7 @@ function App() {
             My LinkedIn Profile
           </a>
         </header>
-      </div>
+      </div> */}
     </>
   );
 }

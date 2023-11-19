@@ -13,7 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   /* background-color: var(--bg-color-primary); */
+  /* background-color: var(--bg-color-primary); */
   /* color: var(--text-color-primary-white); */
   background-image: url('https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700334305/portfolio-bg_1_gephu8.jpg');
   background-size: cover;
@@ -59,7 +59,6 @@ button {
   font-family: inherit;
 }
 
-
 .container {
   width: 100%;
   padding-left: 10px;
@@ -85,6 +84,22 @@ body.modalIsOpen {
     width: 834px;
     padding-left: 27px;
     padding-right: 27px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 34px;
+    padding-right: 34px;
   }
 }
 

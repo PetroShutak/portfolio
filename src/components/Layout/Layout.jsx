@@ -13,19 +13,15 @@ const Layout = () => {
   };
   return (
     <>
-      <div>
-        {isStartPageVisible && (
-          <StartPage onHideStartPage={handleHideStartPage} />
-        )}
-        <Header />
-       
+      {isStartPageVisible && (
+        <StartPage onHideStartPage={handleHideStartPage} />
+      )}
+      <Header />
+      <div className="container">
+        <Suspense fallback={<div>Loading...</div>}>
+          <Outlet />
+        </Suspense>
       </div>
-      <Suspense className="container" fallback={<div>Loading...</div>}>
-        <Outlet />
-      </Suspense>
-      {/* <footer>
-        <p>Footer</p>
-      </footer> */}
     </>
   );
 };
