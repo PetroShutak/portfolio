@@ -1,3 +1,4 @@
+import Home from 'components/HomeStart/Home';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -10,7 +11,9 @@ const HomePage = () => {
       <div
       style={{
         height: '100vh',
-      }}>HomePage</div>
+      }}>
+        <Home />
+      </div>
     </>
   );
 };

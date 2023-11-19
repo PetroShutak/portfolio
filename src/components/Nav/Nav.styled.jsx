@@ -25,7 +25,10 @@ export const StyledLink = styled(NavLink)`
   font-size: 18px;
   line-height: 1.43;
   color: black;
-
+  &:hover,
+    &:focus {
+      color: #aaa;
+    }
   &.active {
     color: blue;
   }
@@ -40,13 +43,14 @@ export const StyledBurger = styled(FiAlignRight)`
   color: #282c34;
   background: transparent;
   cursor: pointer;
-  &:hover {
-    color: #61dafb;
+  &:hover,
+  &:focus {
+    color: #aaa;
   }
 `;
 
 
-export const Logo = styled.div`
+export const LogoContainer = styled.div`
   font-family: 'Play', sans-serif;
   font-weight: 700;
   font-size: 18px;

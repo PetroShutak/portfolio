@@ -1,24 +1,22 @@
-import MainComponents from 'components/MainComponents/MainComponents';
+import { MainWrapper } from 'components/HomeStart/HomeStart.styled';
 
 import React from 'react';
 
-import { Helmet } from 'react-helmet';
-
-const StartPage = () => {
+const StartPage = ({ onHideStartPage }) => {
+  const handleClick = () => {
+    onHideStartPage();
+  };
   return (
     <div>
-      <Helmet>
-        <title>StartPage</title>
-      </Helmet>
       <div
-      style={{
-        height: '100vh',
-      }}
+        style={{
+          height: '100vh',
+        }}
       >
-
-    <MainComponents />
+        <MainWrapper>
+          <button onClick={handleClick}>Get started</button>
+        </MainWrapper>
       </div>
-    
     </div>
   );
 };
