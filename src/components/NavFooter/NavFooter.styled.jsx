@@ -6,9 +6,9 @@ export const NavFooterWrapper = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-around;
-  padding: 24px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
+  padding: 16px;
+  border-top: 1px solid #ccc;
+  // border-radius: 15px;
   box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
   background-color: rgba(0, 0, 0, 0.7);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -17,5 +17,10 @@ export const NavFooterWrapper = styled.div`
   }
   & > a:hover {
     transform: scale(1.1);
+  }
+  p {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
   }
 `;

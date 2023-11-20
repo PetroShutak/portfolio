@@ -5,19 +5,19 @@ export const ContactsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  padding: 24px;
+  gap: 24px;
+  padding-top: 60px;
   border: 1px solid #ccc;
   border-radius: 15px;
   box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
   margin: 24px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5) ;
+  background-color: rgba(255, 255, 255, 0.5);
   a {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     color: #000;
     text-decoration: none;
@@ -34,7 +34,7 @@ export const ContactsWrapper = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
-  color: #61dafb;
+  color: white;
 `;

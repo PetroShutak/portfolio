@@ -8,17 +8,23 @@ import { GoProjectSymlink } from 'react-icons/go';
 const NavFooter = () => {
   return (
     <NavFooterWrapper>
-      <Link to="/">
-        <FaHome size={40} color="white" />
+
+      <Link to="/" style={{display: 'flex', flexDirection: 'column', gap:'4px', alignItems: 'center' }}>
+        <FaHome size={36} color="white" />
+        <p>Home</p>
       </Link>
-      <Link to="/about">
-        <MdDescription size={40} color="white" />
+
+      <Link to="/about" style={{display: 'flex', flexDirection: 'column', gap:'4px', alignItems: 'center' }}>
+        <MdDescription size={36} color="white" />
+        <p>About</p>
       </Link>
-      <Link to="/contacts">
-        <FaRegAddressCard size={40} color="white" />
+      <Link to="/contacts" style={{display: 'flex', flexDirection: 'column', gap:'4px', alignItems: 'center' }}>
+        <FaRegAddressCard size={36} color="white" />
+        <p>Contacts</p>
       </Link>
-      <Link to="/projects">
-        <GoProjectSymlink size={40} color="white" />
+      <Link to="/projects" style={{display: 'flex', flexDirection: 'column', gap:'4px', alignItems: 'center' }}>
+        <GoProjectSymlink size={36} color="white" />
+        <p>Projects</p>
       </Link>
     </NavFooterWrapper>
   );

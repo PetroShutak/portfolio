@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+// import bgLine from '../../assets/images/bg-line.png'
 
 export const BurgerMenuContainer = styled.div`
   position: absolute;
@@ -7,7 +8,7 @@ export const BurgerMenuContainer = styled.div`
   right: 0px;
   width: 400px;
   height: 100vh;
-  background-color: #fff;
+  background-color: #282c34;
   z-index: 1000;
   padding: 20px;
   .close {
@@ -41,9 +42,11 @@ export const Backdrop = styled.div`
 export const BurgerNav = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 40px;
+  margin-bottom: 50px;
   a {
     text-decoration: none;
     color: #000;
@@ -51,7 +54,7 @@ export const BurgerNav = styled.div`
     margin: 20px;
     &:hover,
     &:focus {
-      color: #aaa;
+      color: white;
     }
   }
 `;
@@ -63,6 +66,6 @@ export const StyledLink = styled(NavLink)`
   line-height: 1.43;
   color: black;
   &.active {
-    color: blue;
+    color: #aaa;
   }
 `;

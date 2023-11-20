@@ -12,7 +12,7 @@ const Contacts = () => {
     
     <ContactsWrapper>
       <Title>My contacts</Title>
-      <p>Here you can find my contacts</p>
+      {/* <p>Here you can find my contacts</p> */}
       <a
         href="https://www.linkedin.com/in/petroshutak/"
         target="_blank"

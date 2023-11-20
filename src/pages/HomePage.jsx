@@ -8,12 +8,7 @@ const HomePage = () => {
       <Helmet>
         <title>Home</title>
       </Helmet>
-      <div
-      style={{
-        height: '100vh',
-        paddingTop: '60px',
-        paddingBottom: '60px',
-      }}>
+      <div>
         <Home />
       </div>
     </>

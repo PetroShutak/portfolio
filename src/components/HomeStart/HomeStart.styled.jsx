@@ -36,9 +36,12 @@ export const MainWrapper = styled.div`
 // home
 
 export const HomeContainer = styled.div`
+  height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-top: 60px;
+  align-items: center;
 `;
 
 export const Title = styled.h1`

@@ -20,7 +20,7 @@ import {
   DiNodejsSmall,
   DiReact,
 } from 'react-icons/di';
-import { SiMui, SiRedux } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiMui, SiRedux } from 'react-icons/si';
 import { ImGit } from 'react-icons/im';
 
 const Home = () => {
@@ -31,9 +31,8 @@ const Home = () => {
           color: 'white',
         }}
       >
-        {/* привітанння і представлення */}
         <HomeContainer>
-          <Title>Hello, I'm Petro Shutak</Title>
+          <Title>Petro Shutak</Title>
           {/* avatar */}
 
           <Developer>Full Stack Developer</Developer>
@@ -53,6 +52,8 @@ const Home = () => {
             <DiJavascript1 size="30" color="gray" />
             <DiReact size="30" color="gray" />
             <DiNodejsSmall size="30" color="gray" />
+            <SiExpress size="30" color="gray" />
+            <SiMongodb size="30" color="gray"/>
             <SiMui size="26" color="gray" />
             <SiRedux size="26" color="gray" />
             <ImGit size="26" color="gray" />
@@ -62,7 +63,7 @@ const Home = () => {
           <p>React, Node.js, Express, MongoDB</p>
           <p>Redux, REST API</p>
           <p>Material UI, Bootstrap, Styled Components</p>
-          <p>Git, GitHub, VS Code</p>
+          {/* <p>Git, GitHub, VS Code</p> */}
 
           {/* block з іконками contacts */}
           <ContactsBlock>
