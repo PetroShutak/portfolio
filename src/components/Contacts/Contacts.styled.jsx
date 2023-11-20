@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContactsWrapper = styled.div`
-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
