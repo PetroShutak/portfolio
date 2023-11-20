@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContactsWrapper = styled.div`
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@ export const ContactsWrapper = styled.div`
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     color: #000;
     text-decoration: none;

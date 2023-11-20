@@ -11,7 +11,7 @@ const Contacts = () => {
   return (
     
     <ContactsWrapper>
-      <Title>My contacts</Title>
+      <Title></Title>
       {/* <p>Here you can find my contacts</p> */}
       <a
         href="https://www.linkedin.com/in/petroshutak/"

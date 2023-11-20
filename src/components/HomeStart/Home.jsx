@@ -8,7 +8,7 @@ import {
 // іконки для контактів
 import { MailSend } from '@styled-icons/boxicons-regular/MailSend';
 import { Phone } from '@styled-icons/boxicons-regular/Phone';
-import { FaDatabase, FaTelegram } from 'react-icons/fa';
+import { FaBootstrap, FaDatabase, FaTelegram } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 // іконка для skills
@@ -20,7 +20,7 @@ import {
   DiNodejsSmall,
   DiReact,
 } from 'react-icons/di';
-import { SiExpress, SiMongodb, SiMui, SiRedux } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiMui, SiMysql, SiRedux } from 'react-icons/si';
 import { ImGit } from 'react-icons/im';
 
 const Home = () => {
@@ -41,6 +41,7 @@ const Home = () => {
           <div
             style={{
               display: 'flex',
+              justifyContent: 'center',
               flexWrap: 'wrap',
               alignItems: 'center',
               gap: '10px',
@@ -53,10 +54,12 @@ const Home = () => {
             <DiReact size="30" color="gray" />
             <DiNodejsSmall size="30" color="gray" />
             <SiExpress size="30" color="gray" />
-            <SiMongodb size="30" color="gray"/>
+            <SiMongodb size="30" color="gray" />
             <SiMui size="26" color="gray" />
+            <FaBootstrap size="26" color="gray" />
             <SiRedux size="26" color="gray" />
             <ImGit size="26" color="gray" />
+            <SiMysql size="30" color="gray" />
             <FaDatabase size="26" color="gray" />
           </div>
           <p>HTML, CSS, JavaScript</p>
