@@ -45,6 +45,7 @@ export const HomeContainer = styled.div`
 `;
 
 export const Title = styled.h1`
+  font-family: 'Barlow Black', sans-serif;
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 20px;

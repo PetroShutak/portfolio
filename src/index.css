@@ -1,6 +1,27 @@
+@import-normalize; /* bring in normalize.css styles */
+
 /* :root {
 
 } */
+
+@font-face {
+  font-family: 'Barlow Black';
+  src: url('./assets/fonts/Barlow-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Play Regular', sans-serif;
+  src: url('./assets/fonts/Play-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play Bold', sans-serif;
+  src: url('./assets/fonts/Play-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
 html {
   scroll-behavior: smooth;
@@ -8,13 +29,12 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Play Regular', sans-serif;
+  /* -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: var(--bg-color-primary); */
-  /* color: var(--text-color-primary-white); */
   background-image: url('https://res.cloudinary.com/dk0rzgyzj/image/upload/v1700334305/portfolio-bg_1_gephu8.jpg');
   background-size: cover;
   background-repeat: no-repeat;

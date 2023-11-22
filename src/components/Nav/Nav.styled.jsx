@@ -4,7 +4,6 @@ import { FiAlignRight } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 
 export const NavContainer = styled.div`
-  font-family: 'Play', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,15 +19,14 @@ export const NavContainer = styled.div`
 `;
 
 export const StyledLink = styled(NavLink)`
-  font-family: 'Play', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.43;
   color: black;
   &:hover,
-    &:focus {
-      color: #aaa;
-    }
+  &:focus {
+    color: #aaa;
+  }
   &.active {
     color: blue;
   }
@@ -49,7 +47,6 @@ export const StyledBurger = styled(FiAlignRight)`
   }
 `;
 
-
 export const LogoContainer = styled.div`
   font-family: 'Play', sans-serif;
   font-weight: 700;
@@ -60,5 +57,4 @@ export const LogoContainer = styled.div`
     text-decoration: none;
     color: greenmoss;
   }
-
 `;
