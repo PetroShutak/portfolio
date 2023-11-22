@@ -38,7 +38,7 @@ const BurgerMenu = ({ setOpen }) => {
             Contacts
           </StyledLink>
           <StyledLink onClick={handleLinkClick} to="/projects">
-            Project
+            Projects
           </StyledLink>
         </BurgerNav>
         <div
