@@ -17,14 +17,22 @@ I am a passionate developer with a keen interest in building web applications. M
 
 Here are some of the projects I have worked on:
 
-### Project 1: [Project Title 1](link-to-project-1)
+### Project 1: [HealthyHub](https://alextkachenkofullstack.github.io/healthy-hub/)
 Description of Project 1.
 
-### Project 2: [Project Title 2](link-to-project-2)
+### Project 2: [IceCream](https://petekostrytsya.github.io/DevHunt/)
 Description of Project 2.
 
-### Project 3: [Project Title 3](link-to-project-3)
+### Project 3: [Bookshelf](https://petroshutak.github.io/devHunt-team-project-js/)
 Description of Project 3.
+
+### Project 4: [RentCarEasy](https://petroshutak.github.io/devHunt-team-project-js/)
+Description of Project 4.
+
+### Project 5: [BeautyZone](https://petroshutak.github.io/beauty-zone/)
+Description of Project 5.
+
+...
 
 ## How to Run
 
