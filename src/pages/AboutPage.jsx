@@ -42,7 +42,7 @@ const AboutPage = () => {
               left: '0',
               width: '100%',
               height: '100%',
-              background: 'linear-gradient(45deg, #ff9a9e, #fecfef)',
+              background: 'linear-gradient(45deg, #ffd700, #4169e1)',
               zIndex: '0', // Визначаємо нижчу висоту
               animation: 'gradientAnimation 5s linear infinite', // Анімація градієнту
               borderRadius: '10px', // Округлення країв
