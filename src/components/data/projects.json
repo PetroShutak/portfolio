@@ -8,6 +8,14 @@
     "description": "Healthy Hub is a web application that helps you to track your daily activity, food and water intake, and sleep. It also provides you with a list of healthy recipes and exercises. The application is built with HTML, CSS, JavaScript, and React. It uses Firebase for authentication and database. The application is responsive and works on mobile devices."
   },
   {
+    "id": 14,
+    "title": "StEM - store website - React/Redux",
+    "url": "https://petroshutak.github.io/StEM/",
+    "repository": "https://github.com/PetroShutak/StEM",
+    "image": "https://res.cloudinary.com/dk0rzgyzj/image/upload/v1703923897/stem-shop-catalog_far25s.jpg",
+    "description": "StEM is an innovative online retail platform designed using React, catering to both desktop and mobile users. As a personal project, it integrates seamlessly with a MongoDB database and operates on a custom-built Node.js server. Offering a diverse range of products, StEM provides a user-friendly interface for a seamless shopping experience across various devices."
+  },
+  {
     "id": 2,
     "title": "Ice Cream - Landing Page",
     "url": "https://petekostrytsya.github.io/DevHunt/",
